@@ -29,8 +29,7 @@ java -Xmx1G -Xms1G -jar server.jar nogui &
 sleep 10
 
 # Install playit.gg tunnel
-wget https://github.com/playit-cloud/playit-agent/releases/latest/download/playit-linux_64.tar.gz
-tar -xzvf playit-linux_64.tar.gz
+
 
 # Start the playit.gg tunnel
-./playit-linux_64
+
